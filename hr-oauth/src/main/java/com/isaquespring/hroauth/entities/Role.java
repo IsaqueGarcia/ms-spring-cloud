@@ -1,4 +1,4 @@
-package com.isaquespring.hoauth.entities;
+package com.isaquespring.hroauth.entities;
 
 import java.io.Serializable;
 import java.util.Objects;

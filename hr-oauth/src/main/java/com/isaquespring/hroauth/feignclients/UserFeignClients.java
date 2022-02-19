@@ -1,4 +1,4 @@
-package com.isaquespring.hoauth.feignclients;
+package com.isaquespring.hroauth.feignclients;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.isaquespring.hoauth.entities.User;
+import com.isaquespring.hroauth.entities.User;
 
 @Component //componente gerenciado pelo spring
 @FeignClient(name = "hr-user", path = "/users")

@@ -1,4 +1,4 @@
-package com.isaquespring.hoauth;
+package com.isaquespring.hroauth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
